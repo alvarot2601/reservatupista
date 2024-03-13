@@ -1,0 +1,90 @@
+name: reservatu_pista
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 2.0.0+2
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  aligned_dialog: 0.0.6
+  calendar_date_picker2: ^0.5.3
+  auto_size_text: 3.0.0
+  badges: 2.0.2
+  flutter_svg: ^2.0.9
+  cached_network_image: 3.2.1
+  dropdown_button2: 2.3.9
+  flutter_animate: 4.1.1+1
+  flutter_cache_manager: 3.3.1
+  font_awesome_flutter: 10.6.0
+  from_css_color: 2.0.0
+  google_fonts: 4.0.3
+  intl: 0.18.1
+  json_path: 0.6.2
+  page_transition: 2.1.0
+  path_provider: 2.0.14
+  path_provider_android: 2.0.25
+  path_provider_foundation: 2.2.2
+  path_provider_platform_interface: 2.0.6
+  plugin_platform_interface: 2.1.6
+  provider: 6.0.5
+  share_plus: 7.2.1
+  shared_preferences: 2.2.2
+  shared_preferences_android: 2.2.1
+  shared_preferences_foundation: 2.3.4
+  shared_preferences_platform_interface: 2.3.1
+  shared_preferences_web: 2.2.1
+  stream_transform: 2.1.0
+  table_calendar: 3.0.9
+  timeago: 3.2.2
+  url_launcher: 6.1.10
+  url_launcher_android: 6.0.27
+  url_launcher_ios: 6.1.4
+  url_launcher_platform_interface: 2.1.2
+  flutter_launcher_icons:
+  image_picker: ^1.0.4
+  iban: ^1.0.1
+  http: ^0.13.3
+  http_parser: ^4.0.0
+  crypto: ^3.0.3
+  carousel_slider: 4.2.1
+  just_audio: 0.9.35
+  get: ^4.6.5
+  file_picker: ^6.1.1
+  image: ^4.0.17
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_launcher_icons: 0.13.1
+  flutter_lints: 3.0.0
+  lints: 3.0.0
+
+  flutter_test:
+    sdk: flutter
+
+flutter_launcher_icons:
+  android: 'launcher_icon'
+  ios: true
+  image_path: 'assets/images/logo.png'
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fonts/
+    - assets/images/
+    - assets/videos/
+    - assets/audios/
+    - assets/lottie_animations/
+    - assets/rive_animations/
+    - assets/pdfs/
+    - assets/flags/
